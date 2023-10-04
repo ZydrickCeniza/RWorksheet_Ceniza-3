@@ -38,7 +38,7 @@ print(num1_b[Filter(function(num1_b){all(num1_b%%c(2,4,6)!=0)},seq(26))])
 c.  Produce a vector that contains the vowels
 
 ```{r}
-num1_c<-letters[c(1,5,9,15,21)];LETTERS[c(1,5,9,15,21)];
+num1_c<-letters[c(1,5,9,15,21)];
 num1_c
 ```
 
