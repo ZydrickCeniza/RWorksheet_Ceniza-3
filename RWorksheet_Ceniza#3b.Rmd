@@ -126,7 +126,7 @@ a.  Import the csv file into the R environment. Write the codes.
 ```{r}
 library(readr)
 HouseholdData <- read_csv("HouseholdData.csv")
-View(HouseholdData)
+HouseholdData
 ```
 
 b.  Convert the Sex into factor using factor() function and change it into integer.[Legend:Male = 1 and Female = 2]. Write the R codes and its output.
@@ -169,3 +169,17 @@ num3f
 ### 4. Interpret the graph.
 
 In the Sentiments of Tweets Per Day the Negative Tweets is always higher from July 14,15,17,18,20,21 in year 2020 and the Positive Tweets is in the Second place while the last place is the Neutral.
+
+In July 14, 2020: There were a total of 5,800 tweets. Among these, 2,450 were negative, 1,500 were neutral, and 1,750 were positive.
+
+In July 15, 2020: On this day, there were a total of 10,100 tweets. Out of these, 4,200 were negative, 2,750 were neutral, and 3,200 were positive.
+
+In July 17, 2020: There were 8,100 tweets in total. Of these, 3,250 were negative, 1,900 were neutral, and 2,400 were positive.
+
+In July 18, 2020:On this day, there were 8,100 tweets as well. Out of these, 3,250 were negative, 2,050 were neutral, and 2,500 were positive.
+
+In July 20, 2020: There were 5,100 tweets in total. Among these, 2,4 00 were negative, 1,450 were neutral, and 1,600 were positive.
+
+In July 21, 2020: The total number of tweets was 10,300. Out of these, 4,000 were negative, 2,700 were neutral, and 3,400 were positive.
+
+Therefore, July 15, 2020 is the highest negative tweets, In July 21, 2920 is the highest positive tweets, while the highest neutral tweets is in July 25, 2020
